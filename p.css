@@ -1,0 +1,71 @@
+#backg {
+    
+   width:1450px;
+   opacity: 80%;  
+    position: fixed;
+ 
+
+    
+    
+} 
+
+#appoint {
+    position: fixed; 
+    width:1450px;
+  
+}
+
+
+
+fieldset {
+   padding: 5px;
+    background-color:#62a7bae5;
+    font-family: 'Courier New', Courier, monospace;
+   max-width: 30%;
+   float: right;
+   margin-right: 250px;
+   margin-bottom: 1000px;
+   
+}
+
+
+
+.input {
+    border-radius: 8px;
+    border-color: #50caf3;
+    width: 350px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.submit {
+    background-color: #50caf3;
+    color: white;
+    border-color: #effffd;
+    border-radius: 5px;
+    width: 220px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.submit:hover {
+    color: #59a3bc;
+    border-color: #50caf3;
+    background-color: #fefefe93;
+}
+
+legend {
+    color: #d8eaf0;
+    padding: 5px;
+
+}
+select {
+    color: #747a7d;
+    border-color: #50caf3;
+    background-color: white ;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    
+}
