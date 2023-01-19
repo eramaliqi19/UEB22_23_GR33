@@ -24,38 +24,45 @@
  <br>
     <div class="emri">
     
- <input type="text" name="emri" class="input" placeholder="Enter your name here" required> </div>
+ <input type="text" name="emri" class="input" placeholder="Enter your full name here" required> </div>
  <br>
- <div class="mbiemri">
+ <div class="adresa">
  
-<input type="text" name="mbiemri" class="input" placeholder="Enter your last name here" required> </div>
+<input type="text" name="mbiemri" class="input" placeholder="Enter your address here" required> </div>
 <br>
 <!-- <div class="dropdown-center">
     <button style="background-color: #50caf3; " class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       Appointment required for:
     </button>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Reason 1</a></li>
-      <li><a class="dropdown-item" href="#">Reason 2</a></li>
-      <li><a class="dropdown-item" href="#">Reason 3</a></li>
-      <li><a class="dropdown-item" href="#">Reason 4</a></li>
-      <li><a class="dropdown-item" href="#">Reason 5</a></li>
+      <li><a class="dropdown-item" href="#">Teeth cleaning</a></li>
+      <li><a class="dropdown-item" href="#">Teeth whitening</a></li>
+      <li><a class="dropdown-item" href="#">Tooth exctration</a></li>
+      <li><a class="dropdown-item" href="#">Dentures</a></li>
+      <li><a class="dropdown-item" href="#">Bonding</a></li>
     </ul>
   </div>  -->
 
   <select >
     <option selected>Appointment required for:  </option>
-    <option value="1">Reason 1</option>
-    <option value="2">Reason 2</option>
-    <option value="3">Reason 3</option>
-    <option value="4">Reason 4</option>
-    <option value="5">Reason 5</option>
+    <option value="1">Teeth cleaning</option>
+    <option value="2">Teeth whitening</option>
+    <option value="3">Teeth extraction</option>
+    <option value="4">Dentures</option>
+    <option value="5">Bonding</option>
   </select>
 <br> <br>
   <div class="data">
-    <input type="data" class="input" placeholder="Pick the time of your appointment" required>
+    <input type="data" class="input" placeholder="Pick the date of your appointment" required>
   </div>
-
+<br>
+<div class="time"> 
+  <input style="width: 100px;" type="time" class="input" min="09:00" max="18:00" required> <small style="color: white;">Working hours 9:00 - 18:00</small>
+</div>
+<br>
+<div class="phone" >
+  <input type="tel" class="input"  placeholder="Enter your number">
+</div>
   <br>
 
   <button class="submit">Make appointment!</button>
@@ -67,10 +74,11 @@
 
  </div> 
 
- 
-  
+   
 
 <!--SKRIPTAT-->
 
+
+</script>
 </body>
 </html>
