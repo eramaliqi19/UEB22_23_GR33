@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&family=Stalemate&display=swap" rel="stylesheet">
+    <style>
+        * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, #1680ac,#C7E0FF);
+    height: 100vh;
+    color: rgb(255, 252, 252);
+    font-family: 'Arima Madurai', cursive; 
+}
+
+.main {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 10px 20px black;
+    overflow: hidden;
+}
+
+.contactUs {
+    height: 430px;
+    width: 700px;
+    display: flex;
+    color: white;
+    background-color: #C7E0FF
+    box-shadow: 0px 10px 20px #1680ac;
+    background: radial-gradient(#1680ac);
+}
+
+.side {
+    flex: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.side p {
+    padding: 0px 25px 0px 25px;
+    font-size: small;
+    color: rgb(255, 255, 255);
+}
+
+.side h4 {
+    margin-top: 10px;
+}
+
+.form {
+    flex: 50%;
+}
+
+.form>.main {
+    height: 300px;
+    width: 380px;
+    box-shadow: 0px 10px 20px black;
+    margin-left: 150px;
+    text-align: center;
+}
+
+.form>.main>h2 {
+    padding: 15px;
+}
+
+#txt {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(192, 189, 189);
+    margin-top: 20px;
+    color: rgb(255, 252, 252);
+}
+
+#txt:focus {
+    outline: none;
+}
+
+button {
+    padding: 10px 30px;
+    margin-top: 30px;
+    border: none;
+    box-shadow: 0px 2px 10px black;
+    background-color: rgb(254, 254, 254);
+    cursor: pointer;
+}
+
+button>a {
+    text-decoration: none;
+    color:#1680ac;
+}
+
+.logo {
+    font-family: 'Stalemate', cursive;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    margin-right: 180px;
+    margin-bottom: 15px;
+}
+
+.logo>a {
+    color: rgb(255, 255, 255);
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons i {
+    margin-right: 10px; } 
+
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="contactUs" id="contactUs">
+            <div class="side">
+                <h2 class="logo">E<sup>3</sup>Dent</h2>
+                <h2>CONTACT US</h2>
+                <p>Don't waste time,book your appointment </p>
+                <h4>Address</h4>
+                <p>Ahmet Krasniqi C2|Arbëri,Prishtinë Kosovë 10 000</p>
+                <h4>Contact Number</h4>
+                <p>+38349661817</p>
+                <h4>Email</h4>
+                <p>info@E<sup>3</sup>Dent-ks.com</p>
+                <h4>Opening Hours</h4>
+                <p>Monday-Friday 9AM-6PM</p>
+                <P>Saturday 9AM-2PM</P>
+                </div>
+            <div class="form">
+                <div class="main">
+                    <h2>SEND US A MESSAGE</h2>
+                    <input type="text" name="" id="txt" placeholder="Your Name">
+                    <br>
+                    <input type="text" name="" id="txt" placeholder="Your Mail">
+                    <br>
+                    <input type="text" name="" id="txt" placeholder="Your Message">
+                    <br>
+                    <button type="button"><a href="#">Submit</a></button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
