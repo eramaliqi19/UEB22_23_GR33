@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, intial-scale=1.0">
+        <title>
+            e3Dent-more
+        </title>
+<link rel="stylesheet" type="text/css" href="../projekti.css">
+ <link rel="stylesheet" href="  https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+      <header>
+      
+      <div class="navigation">
+           <div class="navigation-items">
+            <address>
+              <a href="../projekti.html">Home</a>
+              <a href="slideshow.html">SlideShow</a> 
+              </address>
+          </div>
+          </div>
+              </header>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <p style="position: relative; text-align: center;"><abbr title="log-in per te shikuar te dhenat">Klient i rregullt: </abbr> </p>
+                <form style="background-image: url('mainn.png'); background-size: 3000px; background-origin: initial; background-repeat: no-repeat;">
+                    <div class="form-row">
+                      <div class="col-md-4 mb-3">
+                        <label for="validationServer01">First name</label>
+                        <input name="fname" type="text" class="form-control" id="validationServer01" placeholder="First name" required>
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationServer02">Last name</label>
+                        <input type="text" name="lname" class="form-control" id="validationServer02" placeholder="Last name"  required>
+                       
+                      </div>
+                      <div class="col-md-4 mb-3">
+                        <label for="validationServerUsername">Username</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                          </div>
+                          <input name="username" type="text" class="form-control" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationServer03">City</label>
+                        <input name="city" type="text" class="form-control" id="validationServer03" placeholder="City" required>
+                        
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationServer04">State</label>
+                        <input name="state" type="text" class="form-control" id="validationServer04" placeholder="State" required>
+                        
+                      </div>
+                      <div class="col-md-3 mb-3">
+                        <label for="validationServer05">Zip</label>
+                        <input name="zip" type="text" class="form-control" id="validationServer05" placeholder="Zip" required>
+                        
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                          Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <button style="margin-left: 500px; width: 200px; border-color: rgb(13, 2, 131); box-shadow: inset; outline-style: dashed; background-color: white; color: rgb(143, 143, 255);" class="btn btn-primary" type="submit">Log in</button>
+                  </form>
+                  <br>
+
+
+                  <p style="text-align: center;">Give us an honest feedback: </p>
+
+                  <!-- form 2 -->
+                  <div class="container">
+                    <form name="myForm" action="action_page.php"  onsubmit="return(validate())" method="post">
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="fname">First Name</label>
+                        </div>
+                        <div class="col-75">
+                          <input style="width: 500px;" type="text" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="lname">Last Name</label>
+                        </div>
+                        <div class="col-75">
+                          <input style="width: 500px;" type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-25">
+                          <label for="subject">Subject</label>
+                        </div>
+                        <div class="col-75">
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width: 1100px;"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <input type="submit" value="Submit">
+                      </div>
+                    </form>
+                  </div>
+                  <br>
+                    <h2 style="text-align: center;">Get the exact time you filled the form</h2>
+                    <button style="margin-left: 330px; border-style: hidden;" onclick="this.innerHTML=Date()">The time is?</button>
+                    <br>
+                    <br>
+<!-- slide show --> <center>
+<div id="carouselExampleIndicators" style="width: 900px; margin-left: 150px;" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="denti.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="doc2.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="doc3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<p style="text-align: center;">Here at 3Edent you can find the very best treatments</p> </center>
+ <script>
+
+function validate() {
+      
+      if( document.myForm.firstname.value == "" ) {
+         alert( "Please provide your name!" );
+         document.myForm.firstname.focus() ;
+         return false;
+      }
+      if( document.myForm.lastname.value == "" ) {
+         alert( "Please provide your surnmae!" );
+         document.myForm.lastname.focus() ;
+         return false;
+      }
+      if( document.myForm.lastname.value == "" ) {
+         alert( "Please provide your surnmae!" );
+         document.myForm.subject.focus() ;
+         return false;
+      }
+      return( true );
+   }
+
+                  </script>
+    </body>
+</html>
